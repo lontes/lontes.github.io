@@ -1,0 +1,278 @@
+
+html{
+font-size:10px;
+}
+
+	a{
+	outline:none;
+	tex-decoration:none;
+	color:white;
+}
+.about{
+	background-image: url(../pictures/nuts.png);
+	height:99.6rem;
+	background-repeat:no-repeat;
+}
+.box{
+	text-align:center;
+	vertical-align:center;
+    position:relative;
+    top:2rem; 
+    color:white;
+    font-family: 'Roboto Slab', serif;
+}
+.descript{
+	font-weight:700;
+	font-size:5rem;
+}
+.under_descript{
+	font-weight:400;
+	font-size:4rem;
+}
+.under_under{
+	font-weight:300;
+	font-size:3.5rem;
+}
+
+.btn{
+	border:solid 5px #fdfdfd;
+	border-radius:10px;
+	margin-top:8rem;
+}
+.btn:hover{
+  border: solid 5px #3b52a1;
+  color:#3b52a1;
+  box-shadow: 0 10px rgba(0,0,0,0.4);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  
+          
+
+}
+
+.btn-text{
+	font-weight:700;
+	font-size:3.5rem;
+
+}
+.all_nuts{
+	height:1200px;
+	background-color:#ebe5e5;
+}
+.names{
+	display:block;
+	text-align: center;
+	margin-top:16rem;
+	font-weight:700;
+	font-size:4rem;
+}
+.nut{
+	margin-top:10rem;
+}
+
+.nameNut{
+	text-align: center;
+	vertical-align: top;
+	
+	font-weight:400;
+	font-size:2.8rem;
+}
+.whyME{
+	text-align:center;
+	color:black;
+	font-weight:700;
+	font-size:4rem;	
+}
+.garantiya{
+	margin-top:100px;
+
+}
+.footer{
+	background-color:#508981;
+	height:210px;
+	margin-top:160px;
+}
+.email{
+	text-align:center;
+	vertical-align:bottom;
+	color:white;
+   font-weight:700;
+	font-size:3rem;
+	margin-top:70px;
+}
+.foot{
+	background-color:#3b52a1;
+	height:210px;
+	margin-top:0;
+}
+.imagine{
+
+}
+.article{
+	text-decoration:none;
+	color:black;
+}
+.article:hover{
+	text-decoration:none;
+	opacit
+}
+.knopka:hover{
+     width: 30;
+     
+     background-color:black
+
+}
+.iddd{
+	position:relative;
+}
+.snickers{
+	overflow:hidden;
+}
+.knopka{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+    opacity:0.3;
+	color:white;
+    padding-top:70%;
+    text-align:center;
+    font-weight:700;
+	font-size:2rem;
+    opacity:0;
+    transform: scale(0);	
+	z-index:1;
+	
+	
+}
+.snickers:hover .knopka{
+	opacity:0.9;
+	-webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;	
+  color:white;
+  top:0;
+  transform:scale(1);
+  tex-align:center;
+  vertical-align:middle;
+}
+
+
+.iddd{
+	z-index:0;
+}
+.read{
+	display:none;
+
+}
+.nut{
+
+}
+.bin{
+	background-image:url(../pictures/arahis.png);
+	width:100%;
+	height:100%
+}
+.but{
+	margin:0;
+	padding:0;
+	position:relative;
+	
+}
+.but img{
+	max-width:100%;
+}
+.descr{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	background-color:rgba(0,0,0, 0.5);
+	color:white;
+	padding-top:50%;
+	text-align:center;
+	opacity:0;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	vertical-align: middle;
+	transform: scale(0);
+	
+	
+	}
+.fuck{
+	width:50%;
+	background-color:#434e7f;
+	height:80%;
+	font-weight:700;
+	font-size:1.5rem;
+    text-align:center;
+    opacity:1;
+    border-radius:5px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    
+
+}
+.lorem{
+	margin-top:-30px;
+	font-weight:400;
+	font-size:1.5rem;
+}
+.h2{
+	font-weight:700;
+	font-size:2rem;
+}
+.but:hover .descr{
+	opacity:1;
+	transform: scale(1);
+}
+.did{
+	mt-100rem
+}
+.art{
+	color:white;
+	text-decoration:none;
+}
+.art:hover{
+	color:white;
+	text-decoration: none;
+}
+.fotter {
+	margin: 0;
+}
+.picturesss{
+
+}
+@media (min-width:992px) and (max-width:1200px){
+   html{
+   	font-size:8px;
+   }
+   .all_nuts{
+   	height: 1000px;
+   }
+}
+@media (min-width:768px) and (max-width:992px){
+	html{
+		font-size:6px;
+	}
+	.all_nuts{
+		height: 800px;
+	}
+	.picutresss{
+		width: 88%;	
+	}
+}
